@@ -34,7 +34,10 @@ https://hub.docker.com/r/lebedevrp/custom-nginx
 <img width="1231" height="500" alt="Задача 5 1" src="https://github.com/user-attachments/assets/4c989d22-6958-4d5e-8ba0-199b6529911f" />
 <img width="924" height="621" alt="Задача 5 2" src="https://github.com/user-attachments/assets/fd6f00fa-0866-477c-b130-1ba6d35b3982" />
 
-
+<img width="1181" height="402" alt="Задача 5" src="https://github.com/user-attachments/assets/0b668e08-7c95-4d84-b1b5-a1089894790f" />
+# Объяснение предупреждения:
+# Docker Compose обнаружил, что в директории есть несколько файлов, подходящих под стандартные имена (compose.yaml и docker-compose.yaml), и по умолчанию использует только первый.
+# В современных версиях Docker Compose (V2) атрибут "version" стал необязательным и устаревшим.
 
 
 
