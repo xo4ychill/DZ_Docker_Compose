@@ -12,11 +12,11 @@ https://hub.docker.com/r/lebedevrp/custom-nginx
 ![Задача 3 (подключиться к стандартному потоку ввода вывода ошибок)](https://github.com/user-attachments/assets/8b4ca527-e662-46c7-9404-97f98689df1c)
 # Объяснение: Контейнер остановился, потому что при нажатии Ctrl+C во время docker attach сигнал SIGINT (прерывание) был передан главному процессу контейнера (nginx). Nginx, работающий в режиме "daemon off", получил сигнал завершения и остановился, что привело к остановке всего контейнера.
 # Вход в интерактивный терминал контейнера. Установка текстового редактора
-![Задача 3 (интерактивный терминал контейнера custom-nginx-t2 с оболочкой bash )](https://github.com/user-attachments/assets/d720f2e9-90ce-406b-a6f4-4838820f97e6)
+![Задача 3 (интерактивный терминал контейнера custom-nginx-t2 с оболочкой bash )](https://github.com/user-attachments/assets/6f17d13b-5d1d-4bf1-9ceb-1672b321a938)
 # Редактирование конфигурации nginx, Перезагрузка nginx и проверка
-![Задача 3 (замена порта с 80 на 81)](https://github.com/user-attachments/assets/4eb6a432-2483-4ce8-993a-9f771ae2d294)
+![Задача 3 (замена порта с 80 на 81)](https://github.com/user-attachments/assets/ea44b6b6-1feb-48ad-b259-b94d013cb1ec)
 # Проверка на хостовой машин
-![Задача 3 (проверка на хосте)](https://github.com/user-attachments/assets/7855dd5f-742c-4583-8107-1d109102292f)
+![Задача 3 (проверка на хосте)](https://github.com/user-attachments/assets/a55c3908-be99-465a-9652-7690cdea8242)
 # Объяснение проблемы:
 # Контейнер больше не отвечает на порту 8080, потому что:
 # Мы изменили внутренний порт nginx с 80 на 81
