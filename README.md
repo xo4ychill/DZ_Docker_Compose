@@ -15,7 +15,7 @@ https://hub.docker.com/r/lebedevrp/custom-nginx
 ![Задача 3 (интерактивный терминал контейнера custom-nginx-t2 с оболочкой bash )](https://github.com/user-attachments/assets/6f17d13b-5d1d-4bf1-9ceb-1672b321a938)
 # Редактирование конфигурации nginx, Перезагрузка nginx и проверка
 ![Задача 3 (замена порта с 80 на 81)](https://github.com/user-attachments/assets/ea44b6b6-1feb-48ad-b259-b94d013cb1ec)
-# Проверка на хостовой машин
+# Проверка на хостовой машине
 ![Задача 3 (проверка на хосте)](https://github.com/user-attachments/assets/a55c3908-be99-465a-9652-7690cdea8242)
 # Объяснение проблемы:
 # Контейнер больше не отвечает на порту 8080, потому что:
